@@ -35,10 +35,18 @@
 
          <ul class="list header-list">
            <li class="nav-item">
-              <a href="mailto:info@devstudio.com" class="address-black link">info@devstudio.com</a>
+              <a href="mailto:info@devstudio.com" class="address-black link">
+                <svg class="icom-contact" width="16" height="12">
+                  <use href="./images/sprite.svg#envelope"></use>
+              </svg>  
+              info@devstudio.com</a>
            </li>
            <li>
-              <a href="tel:380961111111" class="address-black link">+38 096 111 11 11</a>
+              <a href="tel:380961111111" class="address-black link">
+                <svg class="icom-contact" width="10" height="16">
+                  <use href="./images/sprite.svg#smartphone"></use>
+              </svg>  
+              +38 096 111 11 11</a>
            </li>
          </ul>
        </div>
@@ -114,12 +122,11 @@
                      </div>                    
                  </li>
                  <li class="project-item">
-                     <img src="./images/project/project7.jpg" alt="Открытая книга" width="370" height="294">
-                     <div class="project">
-                      <h2 class="project-title"> Издание Limited Edition</h2>
-                      <p class="project-text">Дизайн</p>
-                     </div>
-                     
+                      <img src="./images/project/project7.jpg" alt="Открытая книга" width="370" height="294">
+                      <div class="project">
+                       <h2 class="project-title"> Издание Limited Edition</h2>
+                       <p class="project-text">Дизайн</p>
+                      </div>                   
                  </li>
                  <li class="project-item">
                      <img src="./images/project/project8.jpg" alt="Бирка" width="370" height="294">
@@ -140,22 +147,74 @@
         </section>
     </main>
           <!--Подвал-->
-    <footer class="bg">
-      <div class="container"> 
-        <a class="logo link" href="./index.html">Web<span class="logo-white link">Studio</span></a>
-        <address>
-           <ul class="address-list list">
-              <li class="item"><a href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer" class="address logo-white link">г. Киев, пр-т
-                  Леси Украинки, 26</a> </li>
-              <li class="item">
-                <a href="mailto:info@devstudio.com" class="address white link">info@devstudio.com</a>
-              </li>
-              <li class="item">
-                <a href="tel:380961111111" class="address white link">+38 096 111 11 11</a>
-              </li>
-           </ul>
-       </address>
-      </div>
-    </footer>
+          <footer class="bg">
+            <div class="container bg-group"> 
+            <div class="footer">
+                <a class="logo link" href="./index.html">Web<span class="logo-white link">Studio</span></a>
+            <address>
+                <ul class="address-list list">
+                    <li class="item">
+                        <a href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer" class="address logo-white link">г. Киев, пр-т
+                        Леси Украинки, 26</a> </li>
+                    <li class="item">
+                      <a href="mailto:info@devstudio.com" class="address white link">info@devstudio.com</a>
+                    </li>
+                    <li class="item">
+                      <a href="tel:380961111111" class="address white link">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+            </div>
+            <div class="join-group">
+                <p class="join-text">присоединяйтесь</p>
+                <ul class="join-list list">
+                    <li class="join-item">
+                        <a class="join-link link" 
+                           href=""
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="иконка Instagram">
+                            <svg class="join-icom" width="20" height="20">
+                                <use href="./images/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item"> 
+                        <a class="join-link link"
+                           href=""
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="иконка Twitter">
+                            <svg class="join-icom" width="20" height="20">
+                                <use href="./images/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="join-item">
+                        <a class="join-link link"
+                           href=""
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="иконка Facebook">
+                            <svg class="join-icom" width="20" height="20">
+                                <use href="./images/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="join-item">
+                        <a class="join-link link"
+                           href=""
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="иконка Linkedin">
+                            <svg class="join-icom" width="20" height="20">
+                                <use href="./images/sprite.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </footer>
   </body>
 </html>
